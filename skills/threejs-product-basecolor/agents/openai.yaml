@@ -1,0 +1,6 @@
+interface:
+  display_name: "Three.js Product Base Color"
+  short_description: "Preserve source Base Color in clean Three.js texture atlases"
+  default_prompt: "Use $threejs-product-basecolor to rebuild the final UVs and bake a lighting-free Base Color atlas from this model's actual source colors."
+policy:
+  allow_implicit_invocation: true

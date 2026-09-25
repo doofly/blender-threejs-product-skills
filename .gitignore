@@ -1,0 +1,67 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Blender files and recovery data
+*.blend
+*.blend1
+*.blend2
+*.blend@
+*.blend~
+*.autosave
+*.recover
+
+# 3D exports and engineering source data
+*.fbx
+*.obj
+*.stl
+*.stp
+*.step
+*.iges
+*.igs
+*.gltf
+*.glb
+
+# Bake, render, and cache output
+bake/
+bakes/
+render/
+renders/
+cache/
+caches/
+tmp/
+temp/
+*.exr
+*.hdr
+*.tx
+
+# Python and tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Archives and local backup packages
+*.zip
+*.tar
+*.tar.gz
+*.tgz

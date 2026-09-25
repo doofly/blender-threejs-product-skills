@@ -1,0 +1,6 @@
+interface:
+  display_name: "Three.js Product Low-poly"
+  short_description: "Optimize Blender product models for Three.js real-time use"
+  default_prompt: "Use $threejs-product-lowpoly to audit and simplify this Blender product model into a clean, silhouette-preserving real-time asset."
+policy:
+  allow_implicit_invocation: true

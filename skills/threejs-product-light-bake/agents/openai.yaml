@@ -1,0 +1,6 @@
+interface:
+  display_name: "Three.js Product Light Bake"
+  short_description: "Bake Base Color with direct and indirect light for Three.js"
+  default_prompt: "Use $threejs-product-light-bake to create new UVs and bake the model's actual Base Color with diffuse direct and indirect scene lighting."
+policy:
+  allow_implicit_invocation: true

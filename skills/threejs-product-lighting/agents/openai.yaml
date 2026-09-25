@@ -1,0 +1,6 @@
+interface:
+  display_name: "Three.js Product Lighting"
+  short_description: "Create balanced all-angle lighting for Three.js products"
+  default_prompt: "Use $threejs-product-lighting to build and validate balanced all-angle product lighting in Blender and provide a matching Three.js recipe."
+policy:
+  allow_implicit_invocation: true
